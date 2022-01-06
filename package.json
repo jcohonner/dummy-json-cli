@@ -1,0 +1,18 @@
+{
+  "name": "dummy-json-cli",
+  "version": "1.0.0",
+  "description": "generate dummy json from templates",
+  "main": "app.js",
+  "bin": {
+    "generatejson": "./app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jérôme Cohonner<jerome.cohonner@algolia.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "dummy-json": "^3.0.4"
+  }
+}
